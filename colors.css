@@ -1,0 +1,77 @@
+body {
+    text-align: center;
+    width: 960px;
+    margin: auto;
+}
+
+body nav {
+    margin-top: 20px;
+    float: right;
+    position: relative;
+}
+
+body button {
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: blue;
+}
+
+body #cont {
+    width: 950px;
+    height: 600px;
+    text-align: center;
+    display: inline-block;
+}
+
+body #container {
+    margin-top: 100px;
+    height: 450px;
+    width: 900px;
+    margin-left: auto;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: blue;
+}
+
+#container>div:nth-child(1) {
+    text-align: justify;
+    margin-top: 20px;
+    width: 250px;
+    height: 400px;
+    color: white;
+    float: left;
+}
+
+#container>div:nth-child(2) {
+    text-align: justify;
+    margin-top: 20px;
+    width: 250px;
+    height: 400px;
+    color: white;
+    float: left;
+    margin-left: 70px;
+}
+
+#container>div:nth-child(3) {
+    text-align: justify;
+    margin-top: 20px;
+    width: 250px;
+    height: 400x;
+    color: white;
+    float: right;
+}
+
+body div#cont div#container div img#pic1hover {
+    display: none;
+}
+
+body div#cont div#container div img#pic2hover {
+    display: none;
+}
+
+body div#cont div#container div img#pic3hover {
+    display: none;
+}
